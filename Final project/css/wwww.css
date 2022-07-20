@@ -1,0 +1,125 @@
+* {
+  text-decoration: none;
+}
+body {
+  font-family: Bahnschrift;
+  background: linear-gradient(#200016, #10001f);
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+article {
+  clear: both;
+  margin: 160px 0px;
+}
+
+.wwww-div {
+  text-align: center;
+  width: 600px;
+  background-color: #b4a6a6;
+  padding: 20px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.wwww-div img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+header .logo {
+  font-size: 30px;
+  font-family: Brush Script MT;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+header ul li {
+  margin-right: 30px;
+}
+
+header ul li a {
+  padding: 6px 15px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Brush Script MT;
+  text-decoration: none;
+}
+
+header ul li a:hover,
+.active {
+  background: #ffffff;
+  font-family: Brush Script MT;
+  color: #240018;
+}
+.footer-bottom {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: xx-small;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 4px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background: #610000;
+  padding: 20px;
+  width: 97.5%;
+  margin-top: 20px;
+}
+
+.footer-content {
+  width: 97.5%;
+  height: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+  line-height: 30px;
+}
+#link {
+  color: rgb(255, 255, 255);
+  text-decoration: rgb(0, 0, 0) underline;
+}
+.socials a {
+  display: inline-block;
+  font-size: 2.5em;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+.socials a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
