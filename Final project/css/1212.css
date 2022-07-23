@@ -14,13 +14,16 @@ header {
   height: 100px;
 }
 li {
+  font-family: Brush Script MT;
   list-style: none;
 }
 a {
+  font-family: Brush Script MT;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .navbar {
+  font-family: Brush Script MT;
   min-height: 50px;
   display: flex;
   justify-content: space-between;
@@ -28,21 +31,25 @@ a {
   padding: 0 24px;
 }
 .nav-nenu {
+  font-family: Brush Script MT;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /*justify-content: space-between;*/
+  align-items: right;
   padding: 60px;
 }
 .nav-branding{
+  font-family: Brush Script MT;
   font-size: 2rem;
 }
 .nav-link{
+  font-family: Brush Script MT;
   transition: 0.7s ease;
+  font-size: 20px;
 }
 .nav-link:hover{
+  font-family: Brush Script MT;
   color: dodgerblue;
 }
-
 
 .main {
   position: relative;
