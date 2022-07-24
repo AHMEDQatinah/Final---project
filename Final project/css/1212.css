@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Bahnschrift;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -25,7 +25,7 @@ header {
 }
 
 header .logo {
-  font-family: Brush Script MT;
+  font-family: Georgia, 'Times New Roman', Times, serif Script MT;
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -42,14 +42,14 @@ header ul li {
 }
 
 header ul li a {
-  font-family: Brush Script MT;
+  font-family: Georgia, 'Times New Roman', Times, serif Script MT;
   padding: 6px 15px;
   border-radius: 20px;
 }
 
 header ul li a:hover,
 .active {
-  font-family: Brush Script MT;
+  font-family: Georgia, 'Times New Roman', Times, serif Script MT;
   background: #ffffff;
   color: #200016;
 }
