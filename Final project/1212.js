@@ -32,3 +32,26 @@ window.onscroll = function () {
     }
   }
 };
+var images = [
+  "img/1957 Mercedes 300SL Gullwing/1.jfif",
+  "img/1957 Mercedes 300SL Gullwing/2.avif",
+  "img/1957 Mercedes 300SL Gullwing/3.jfif",
+  "img/1957 Mercedes 300SL Gullwing/4.jfif",
+  "img/1957 Mercedes 300SL Gullwing/5.jfif",
+  "img/1957 Mercedes 300SL Gullwing/6.jfif"
+];
+
+var index = 0;
+
+function changeImages() {
+  imageSlideShow.src = images[index];
+  if (index < images.length - 1) {
+    index++;
+  } else {
+    index = 0;
+  }
+
+  setTimeout("changeImages()", 1000);
+}
+
+changeImages();

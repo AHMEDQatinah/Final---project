@@ -166,6 +166,14 @@ footer {
   align-items: center;
   list-style: none;
 }
+img {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: 50px auto;
+  border: 5px solid rgb(208, 127, 218);
+  padding: 5px;
+}
 .load {
   display: flex;
   justify-content: center;
